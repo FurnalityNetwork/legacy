@@ -1,11 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* Déclaration de la police locale Caledonian Font */
+@font-face {
+  font-family: 'CaledonianFont';
+  src: url('Assets/fonts/Caledonian_Font/Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'CaledonianFont';
+  src: url('Assets/fonts/Caledonian_Font/Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Application globale */
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'CaledonianFont', sans-serif;
   background-color: #f9fafb;
 }
 
-/* Animations légères pour l'interaction des cartes */
+/* Animations pour l'interaction des cartes */
 .legacy-card {
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
