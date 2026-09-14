@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cadre Légal & Registre — Furnality Network</title>
+  <title>Registre Officiel — Furnality Legacy</title>
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
   <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
   <link rel="icon" type="image/svg+xml" href="Assets/images/DCNC.svg">
@@ -11,15 +11,21 @@
 </head>
 <body class="bg-gray-50 text-gray-900 antialiased min-h-screen flex flex-col justify-between">
 
-  <!-- En-tête -->
+  <!-- En-tête Sticky -->
   <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
     <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
       
-      <!-- Logo Furnality (Non cliquable) -->
+      <!-- Logo & Fil d'Ariane (Non cliquable) -->
       <div class="flex items-center gap-3 select-none">
-        <img src="Assets/images/Furnality Logo.svg" alt="Furnality Network" class="h-8 w-auto object-contain" />
+        <img src="Assets/images/Furnality Logo.svg" alt="Furnality" class="h-8 w-auto object-contain" />
         <span class="text-xs text-gray-300">|</span>
-        <span class="text-xs font-bold tracking-widest text-gray-400 uppercase">Legacy & Registre</span>
+        <span class="text-xs font-bold tracking-widest text-gray-400 uppercase">Portail Legacy / Registre Général</span>
+      </div>
+
+      <!-- Statut Réseau -->
+      <div class="flex items-center gap-2">
+        <span class="w-2 h-2 bg-emerald-500"></span>
+        <span class="text-xs font-mono font-semibold text-gray-600 uppercase">Registre Actif</span>
       </div>
 
     </div>
@@ -28,90 +34,122 @@
   <!-- Contenu Principal -->
   <main class="max-w-5xl mx-auto px-6 py-12 flex-grow w-full">
     
-    <!-- Hero / Présentation -->
+    <!-- Hero / Entête de la homepage -->
     <div class="border-b border-gray-200 pb-8 mb-10">
       <div class="flex items-center gap-3 mb-3">
-        <span class="px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider bg-black text-white">Registre Officiel</span>
-        <span class="text-xs text-gray-400">Écosystème Furnality</span>
+        <span class="px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider bg-black text-white">Archives & Portails Juridiques</span>
+        <span class="text-xs font-mono text-gray-400">Édition 2026</span>
       </div>
       <h1 class="text-3xl md:text-5xl font-extrabold text-black tracking-tight mb-3">
-        Centre d'Information & Cadre Légal.
+        Registre Officiel Furnality.
       </h1>
       <p class="text-gray-600 text-sm leading-relaxed max-w-2xl">
-        Portail centralisé regroupant l'ensemble des dispositions juridiques, des conditions d'utilisation et des politiques de confidentialité applicables aux services du groupe : Furnality, Office Broadcaster, Zapping et Furnality News.
+        Portail centralisé d'accès aux actes juridiques, conditions d'exploitation, régulations des antennes et registres administratifs du groupe Furnality.
       </p>
     </div>
 
-    <!-- Grille des 4 Documents Legacy -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="legal-docs-grid">
+    <!-- Grille des Registres -->
+    <div class="space-y-10">
 
-      <!-- Carte 1 : Mentions Légales -->
-      <a href="mentions-legales.html" class="legacy-card group bg-white p-6 border border-gray-200 hover:border-black transition-all shadow-sm flex flex-col justify-between">
-        <div>
-          <div class="w-10 h-10 bg-gray-100 flex items-center justify-center text-black mb-4 group-hover:bg-black group-hover:text-white transition">
-            <i data-lucide="file-text" class="w-5 h-5"></i>
-          </div>
-          <h2 class="text-lg font-bold text-black mb-2 group-hover:underline">Mentions Légales</h2>
-          <p class="text-xs text-gray-500 leading-relaxed mb-6">
-            Informations sur l'éditeur du réseau, l'hébergement des infrastructures web/API et le cadre de la propriété intellectuelle.
-          </p>
-        </div>
-        <div class="flex items-center text-xs font-bold text-black gap-1 pt-4 border-t border-gray-100">
-          <span>Consulter le document</span>
-          <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
-        </div>
-      </a>
+      <!-- SECTION 1 : Cadre Légal & Réglementaire -->
+      <div>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-4 border-b border-gray-200 pb-2">
+          01. Cadre Légal & Informations Réglementaires
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          
+          <!-- Mentions Légales -->
+          <a href="mentions-legales.html" class="bg-white p-6 border border-gray-200 block transition-colors hover:border-black">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-[10px] font-mono text-gray-400 uppercase">Réf : LEG-2026-01</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 text-black"></i>
+            </div>
+            <h3 class="text-base font-bold text-black mb-1">Mentions Légales</h3>
+            <p class="text-xs text-gray-500">Édition non professionnelle, infrastructures d'hébergement GitHub et hébergement des flux.</p>
+          </a>
 
-      <!-- Carte 2 : CGU & Conditions -->
-      <a href="cgu-conditions.html" class="legacy-card group bg-white p-6 border border-gray-200 hover:border-black transition-all shadow-sm flex flex-col justify-between">
-        <div>
-          <div class="w-10 h-10 bg-gray-100 flex items-center justify-center text-black mb-4 group-hover:bg-black group-hover:text-white transition">
-            <i data-lucide="shield-check" class="w-5 h-5"></i>
-          </div>
-          <h2 class="text-lg font-bold text-black mb-2 group-hover:underline">CGU & Conditions d'accès</h2>
-          <p class="text-xs text-gray-500 leading-relaxed mb-6">
-            Règles d'utilisation du réseau, modalité de diffusion des flux directs et conditions des accès Premium sans publicité.
-          </p>
-        </div>
-        <div class="flex items-center text-xs font-bold text-black gap-1 pt-4 border-t border-gray-100">
-          <span>Consulter le document</span>
-          <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
-        </div>
-      </a>
+          <!-- CGU -->
+          <a href="cgu-conditions.html" class="bg-white p-6 border border-gray-200 block transition-colors hover:border-black">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-[10px] font-mono text-gray-400 uppercase">Réf : CGU-2026-01</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 text-black"></i>
+            </div>
+            <h3 class="text-base font-bold text-black mb-1">Conditions Générales d'Utilisation</h3>
+            <p class="text-xs text-gray-500">Règles d'accès aux registres, usage conforme, modération et responsabilité.</p>
+          </a>
 
-      <!-- Carte 3 : Confidentialité & Données -->
-      <a href="confidentialite-donnees.html" class="legacy-card group bg-white p-6 border border-gray-200 hover:border-black transition-all shadow-sm flex flex-col justify-between">
-        <div>
-          <div class="w-10 h-10 bg-gray-100 flex items-center justify-center text-black mb-4 group-hover:bg-black group-hover:text-white transition">
-            <i data-lucide="lock" class="w-5 h-5"></i>
-          </div>
-          <h2 class="text-lg font-bold text-black mb-2 group-hover:underline">Confidentialité & Données</h2>
-          <p class="text-xs text-gray-500 leading-relaxed mb-6">
-            Engagements de protection de la vie privée, traitement des comptes d'accès et droits des utilisateurs du réseau.
-          </p>
-        </div>
-        <div class="flex items-center text-xs font-bold text-black gap-1 pt-4 border-t border-gray-100">
-          <span>Consulter le document</span>
-          <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
-        </div>
-      </a>
+          <!-- Politique de Confidentialité -->
+          <a href="confidentialite-donnees.html" class="bg-white p-6 border border-gray-200 block transition-colors hover:border-black">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-[10px] font-mono text-gray-400 uppercase">Réf : PRIV-2026-01</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 text-black"></i>
+            </div>
+            <h3 class="text-base font-bold text-black mb-1">Politique de Confidentialité</h3>
+            <p class="text-xs text-gray-500">Protection des données, protocole de vérification d'âge et absence de stockage de documents.</p>
+          </a>
 
-      <!-- Carte 4 : Traceurs & Cookies -->
-      <a href="traceurs.html" class="legacy-card group bg-white p-6 border border-gray-200 hover:border-black transition-all shadow-sm flex flex-col justify-between">
-        <div>
-          <div class="w-10 h-10 bg-gray-100 flex items-center justify-center text-black mb-4 group-hover:bg-black group-hover:text-white transition">
-            <i data-lucide="cookie" class="w-5 h-5"></i>
-          </div>
-          <h2 class="text-lg font-bold text-black mb-2 group-hover:underline">Gestion des Traceurs</h2>
-          <p class="text-xs text-gray-500 leading-relaxed mb-6">
-            Détails sur l'utilisation des cookies techniques, de la mémorisation des flux et des préférences de visionnage.
-          </p>
+          <!-- Traceurs & Cookies -->
+          <a href="traceurs.html" class="bg-white p-6 border border-gray-200 block transition-colors hover:border-black">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-[10px] font-mono text-gray-400 uppercase">Réf : COOK-2026-01</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 text-black"></i>
+            </div>
+            <h3 class="text-base font-bold text-black mb-1">Gestion des Traceurs & Cookies</h3>
+            <p class="text-xs text-gray-500">Transparence sur l'absence de traçage commercial propre et fonctionnement des lecteurs vidéo tiers.</p>
+          </a>
+
         </div>
-        <div class="flex items-center text-xs font-bold text-black gap-1 pt-4 border-t border-gray-100">
-          <span>Consulter le document</span>
-          <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
+      </div>
+
+      <!-- SECTION 2 : Régulation des Antennes & Membres -->
+      <div>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-4 border-b border-gray-200 pb-2">
+          02. Régulation des Antennes & Adhésion
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+          <!-- Charte des Antennes -->
+          <a href="charte-antenne.html" class="bg-white p-6 border border-gray-200 block transition-colors hover:border-black">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-[10px] font-mono text-gray-400 uppercase">Réf : ANT-2026-01</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 text-black"></i>
+            </div>
+            <h3 class="text-base font-bold text-black mb-1">Charte des Antennes & Concessions</h3>
+            <p class="text-xs text-gray-500">Règles de production pour les Maîtres de Canal, continuité d'antenne et normes visuelles.</p>
+          </a>
+
+          <!-- Accès Restreints -->
+          <a href="acces-restreint.html" class="bg-white p-6 border border-gray-200 block transition-colors hover:border-black">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-[10px] font-mono text-gray-400 uppercase">Réf : ACC-2026-01</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 text-black"></i>
+            </div>
+            <h3 class="text-base font-bold text-black mb-1">Accès aux Contenus Restreints</h3>
+            <p class="text-xs text-gray-500">Protocole de contrôle de majorité et habilitations pour les espaces restreints / Discord NSFW.</p>
+          </a>
+
+          <!-- Devenir Membre -->
+          <a href="devenir-membre.html" class="bg-white p-6 border border-gray-200 block transition-colors hover:border-black">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-[10px] font-mono text-gray-400 uppercase">Réf : MBR-2026-01</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 text-black"></i>
+            </div>
+            <h3 class="text-base font-bold text-black mb-1">Devenir Membre & Créer sa Chaîne</h3>
+            <p class="text-xs text-gray-500">Modalités d'intégration, soumission de projets vidéo/audio et attribution de canaux.</p>
+          </a>
+
+          <!-- Fondateurs & Crédits -->
+          <a href="fondateurs-contributeurs.html" class="bg-white p-6 border border-gray-200 block transition-colors hover:border-black">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-[10px] font-mono text-gray-400 uppercase">Réf : HIS-2026-01</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 text-black"></i>
+            </div>
+            <h3 class="text-base font-bold text-black mb-1">Fondateurs & Crédits du Réseau</h3>
+            <p class="text-xs text-gray-500">Registre d'honneur des créateurs, partenaires institutionnels (Bureau des Tournages, ADAMIC) et contributeurs.</p>
+          </a>
+
         </div>
-      </a>
+      </div>
 
     </div>
 
@@ -124,7 +162,7 @@
           <p class="text-xs text-gray-500">Réseau multimédia francophone et indépendant.</p>
         </div>
       </div>
-      <span class="text-[11px] font-semibold text-gray-400">Édition 2026</span>
+      <span class="text-[11px] font-semibold text-gray-400">Mise à jour : 2026</span>
     </div>
 
   </main>
@@ -132,7 +170,7 @@
   <!-- Pied de page -->
   <footer class="bg-white border-t border-gray-200 py-8 px-6">
     <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between text-xs text-gray-500 gap-4">
-      <p>© 2026 Furnality Network — Tous droits réservés.</p>
+      <p>© 2026 Furnality — Tous droits réservés.</p>
       <p class="font-semibold text-black">Furnality Legacy</p>
     </div>
   </footer>
