@@ -1,8 +1,15 @@
-/* Déclaration de la police locale Caledonian Font */
+/* Chargement des typographies locales */
 @font-face {
   font-family: 'CaledonianFont';
   src: url('Assets/fonts/Caledonian_Font/Regular.ttf') format('truetype');
   font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CaledonianFont';
+  src: url('Assets/fonts/Caledonian_Font/Medium.ttf') format('truetype');
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -14,12 +21,14 @@
 }
 
 /* Application globale */
+* {
+  font-family: 'CaledonianFont', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
 body {
-  font-family: 'CaledonianFont', sans-serif;
   background-color: #f9fafb;
 }
 
-/* Animations pour l'interaction des cartes */
 .legacy-card {
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
