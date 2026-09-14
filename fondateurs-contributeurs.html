@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registre des Fondateurs & Crédits — Furnality</title>
+  <title>Fondateurs & Contributeurs — Furnality</title>
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
   <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
   <link rel="icon" type="image/svg+xml" href="Assets/images/DCNC.svg">
@@ -11,93 +11,183 @@
 </head>
 <body class="bg-gray-50 text-gray-900 antialiased min-h-screen flex flex-col justify-between">
 
+  <!-- En-tête Sticky -->
   <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
     <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      
+      <!-- Logo & Fil d'Ariane -->
       <div class="flex items-center gap-3 select-none">
         <img src="Assets/images/Furnality Logo.svg" alt="Furnality" class="h-8 w-auto object-contain" />
         <span class="text-xs text-gray-300">|</span>
         <span class="text-xs font-bold tracking-widest text-gray-400 uppercase">Registre / Archives & Crédits</span>
       </div>
+
+      <!-- Bouton de retour -->
       <a href="index.html" class="text-xs font-bold text-black hover:underline flex items-center gap-2">
         <i data-lucide="arrow-left" class="w-4 h-4"></i>
         <span>Retour au registre</span>
       </a>
+
     </div>
   </header>
 
+  <!-- Contenu Principal -->
   <main class="max-w-4xl mx-auto px-6 py-12 flex-grow w-full">
+    
+    <!-- Hero / Entête du document -->
     <div class="border-b border-gray-200 pb-8 mb-10">
       <div class="flex items-center gap-3 mb-3">
         <span class="px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider bg-black text-white">Archives Historiques</span>
-        <span class="text-xs text-gray-400">Réf : HIS-2026-01</span>
+        <span class="text-xs font-mono text-gray-400">Réf : HIS-2026-01</span>
       </div>
       <h1 class="text-3xl md:text-5xl font-extrabold text-black tracking-tight mb-3">
-        Fondateurs & Crédits du Réseau.
+        Fondateurs & Contributeurs.
       </h1>
       <p class="text-gray-600 text-sm leading-relaxed max-w-2xl">
-        Registre d'honneur recensant l'ensemble des acteurs, créateurs, développeurs et contributeurs ayant participé au développement de Furnality.
+        Registre officiel recensant la direction, l'équipe technique et créative, la structure des réseaux d'antenne ainsi que les contributeurs et partenaires de Furnality.
       </p>
     </div>
 
     <div class="space-y-8 text-sm leading-relaxed text-gray-700">
-      
-      <!-- Direction & Direction Générale -->
+
+      <!-- Section 1 : Direction & Fondations -->
       <section class="bg-white p-6 border border-gray-200">
         <h2 class="text-lg font-bold text-black mb-4 uppercase tracking-wide border-b border-gray-100 pb-2">
-          Direction & Fondations
+          1. Direction Général & Fondateur
         </h2>
-        <div class="space-y-4">
-          <div class="border-l-2 border-black pl-4">
-            <h3 class="font-bold text-black text-base">Direction Générale / Fondateur Unique</h3>
-            <p class="text-xs text-gray-500 mb-1">Conception du réseau, direction artistique, développement web et gestion des concessions.</p>
-            <p class="font-mono text-xs text-black font-semibold">Fondateur & Direction d'Antenne</p>
+        <div class="border-l-2 border-black pl-4">
+          <div class="flex items-center justify-between mb-1">
+            <h3 class="font-bold text-black text-base">DarkeofTime (Samuel SALA)</h3>
+            <span class="text-[10px] font-mono uppercase bg-black text-white px-2 py-0.5">Fondateur & Dirigeant</span>
+          </div>
+          <p class="text-xs text-gray-500 mb-3">Fondateur de Furnality, du réseau DBN et d'Office BroadCaster (OBC).</p>
+          <div class="flex flex-wrap gap-2 text-[11px] font-mono text-gray-600">
+            <span class="bg-gray-100 px-2 py-1">Graphiste</span>
+            <span class="bg-gray-100 px-2 py-1">Motion Designer</span>
+            <span class="bg-gray-100 px-2 py-1">Vidéaste / Animateur</span>
+            <span class="bg-gray-100 px-2 py-1">Monteur Vidéo</span>
           </div>
         </div>
       </section>
 
-      <!-- Partenaires & Appuis Institutionnels / Production -->
+      <!-- Section 2 : Équipe Technique & Cadres -->
       <section class="bg-white p-6 border border-gray-200">
         <h2 class="text-lg font-bold text-black mb-4 uppercase tracking-wide border-b border-gray-100 pb-2">
-          Partenaires & Soutiens Extérieurs
+          2. Direction Adjointe & Équipe Technique
         </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
           <div class="p-4 bg-gray-50 border border-gray-200">
-            <strong class="text-black block mb-1">Bureau des Tournages de Nouvelle-Calédonie</strong>
-            <p class="text-gray-600">Assistance de projet et soutien à la production audiovisuelle.</p>
+            <p class="font-bold text-black mb-1">Ptyranidur</p>
+            <p class="text-gray-500 font-mono text-[11px]">Sous-chef de Furnality</p>
           </div>
           <div class="p-4 bg-gray-50 border border-gray-200">
-            <strong class="text-black block mb-1">ADAMIC</strong>
-            <p class="text-gray-600">Partenaire financier et accompagnement structurel.</p>
+            <p class="font-bold text-black mb-1">Kirby90 (Vanilla)</p>
+            <p class="text-gray-500 font-mono text-[11px]">Développeur Furnality</p>
+          </div>
+          <div class="p-4 bg-gray-50 border border-gray-200">
+            <p class="font-bold text-black mb-1">Caledolol</p>
+            <p class="text-gray-500 font-mono text-[11px]">Motion Designer</p>
           </div>
         </div>
       </section>
 
-      <!-- Contribution Technique & Acteurs du Réseau -->
+      <!-- Section 3 : Maîtres de Canal & Chefs de Chaînes -->
       <section class="bg-white p-6 border border-gray-200">
         <h2 class="text-lg font-bold text-black mb-4 uppercase tracking-wide border-b border-gray-100 pb-2">
-          Contributeurs & Maîtres de Canal
+          3. Maîtres de Canal & Concessions
         </h2>
-        <p class="mb-4">
-          Liste des personnes ayant contribué au développement des sous-marques, habillages visuels, antennes partenaires ou canaux de diffusion du groupe :
-        </p>
-        <ul class="divide-y divide-gray-100 text-xs font-mono">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs font-mono">
+          <div class="p-3 bg-gray-50 border border-gray-200">
+            <span class="text-black font-bold block">Ptyranidur</span>
+            <span class="text-gray-500 text-[11px]">Chef de chaîne : Streaming Game FR & déclinaisons</span>
+          </div>
+          <div class="p-3 bg-gray-50 border border-gray-200">
+            <span class="text-black font-bold block">Wann</span>
+            <span class="text-gray-500 text-[11px]">Chef de chaîne : Stream Animation Zone</span>
+          </div>
+          <div class="p-3 bg-gray-50 border border-gray-200">
+            <span class="text-black font-bold block">Èspéria</span>
+            <span class="text-gray-500 text-[11px]">Chef de chaîne : Asta of Mitologi</span>
+          </div>
+          <div class="p-3 bg-gray-50 border border-gray-200">
+            <span class="text-black font-bold block">Rayen</span>
+            <span class="text-gray-500 text-[11px]">Chef de chaîne : Toku Dungeon</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4 : Structure du Réseau DBN & Stations -->
+      <section class="bg-white p-6 border border-gray-200">
+        <h2 class="text-lg font-bold text-black mb-4 uppercase tracking-wide border-b border-gray-100 pb-2">
+          4. Réseau DBN (DarkeofTime Broadcasting Network)
+        </h2>
+        
+        <p class="text-xs font-bold uppercase text-gray-400 mb-2">Grille des Chaînes DBN</p>
+        <ul class="divide-y divide-gray-100 text-xs font-mono mb-6">
           <li class="py-2 flex justify-between">
-            <span class="text-black font-semibold">Office Broadcaster</span>
-            <span class="text-gray-500">Chaîne Affiliée / Antenne Principale</span>
+            <span class="text-black font-semibold">CenterofStream</span>
+            <span class="text-gray-500">CANAL 1 (Généraliste)</span>
           </li>
           <li class="py-2 flex justify-between">
-            <span class="text-black font-semibold">DarkeofTime Broadcasting Network (DBN)</span>
-            <span class="text-gray-500">Réseau Partenaire</span>
+            <span class="text-black font-semibold">SoundofSkully</span>
+            <span class="text-gray-500">CANAL 2 (Musicale — Déclinaisons MVC / Music Video Channel)</span>
           </li>
           <li class="py-2 flex justify-between">
-            <span class="text-black font-semibold">Canal 2 (Music Video Channel)</span>
-            <span class="text-gray-500">Antenne Musicale DBN</span>
+            <span class="text-black font-semibold">Direct 9</span>
+            <span class="text-gray-500">CANAL 9 (Généraliste OFF)</span>
+          </li>
+          <li class="py-2 flex justify-between">
+            <span class="text-black font-semibold">One by Furnality</span>
+            <span class="text-gray-500">CANAL 10 (International & Régional)</span>
           </li>
         </ul>
+
+        <p class="text-xs font-bold uppercase text-gray-400 mb-2">Radio Officielle DBN</p>
+        <div class="p-3 bg-gray-50 border border-gray-200 font-mono text-xs flex justify-between items-center">
+          <span class="text-black font-bold">Furnality Radio</span>
+          <span class="text-gray-500">Station Audio Officielle</span>
+        </div>
+      </section>
+
+      <!-- Section 5 : Contributeurs & Partenaires Extérieurs -->
+      <section class="bg-white p-6 border border-gray-200">
+        <h2 class="text-lg font-bold text-black mb-4 uppercase tracking-wide border-b border-gray-100 pb-2">
+          5. Contributeurs & Partenaires Officiels
+        </h2>
+        <p class="mb-3 text-xs text-gray-600">
+          Acteurs, partenaires média et organismes apportant leur concours à Furnality & Office Broadcaster (OBC) :
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3 text-xs font-mono">
+          <div class="p-3 bg-gray-50 border border-gray-200 text-center">
+            <span class="text-black font-semibold block">Laura NC</span>
+            <span class="text-gray-400 text-[10px]">@lauranc.officiel</span>
+          </div>
+          <div class="p-3 bg-gray-50 border border-gray-200 text-center">
+            <span class="text-black font-semibold block">CocoBanane</span>
+            <span class="text-gray-400 text-[10px]">@cocobanane2.0</span>
+          </div>
+          <div class="p-3 bg-gray-50 border border-gray-200 text-center">
+            <span class="text-black font-semibold block">Caledonia TV</span>
+            <span class="text-gray-400 text-[10px]">@caledonia_nc</span>
+          </div>
+          <div class="p-3 bg-gray-50 border border-gray-200 text-center">
+            <span class="text-black font-semibold block">CanalPlus Calédonie</span>
+            <span class="text-gray-400 text-[10px]">@canalpluscaledonie</span>
+          </div>
+          <div class="p-3 bg-gray-50 border border-gray-200 text-center">
+            <span class="text-black font-semibold block">Ville de Bourail</span>
+            <span class="text-gray-400 text-[10px]">@villedebourail</span>
+          </div>
+          <div class="p-3 bg-gray-50 border border-gray-200 text-center">
+            <span class="text-black font-semibold block">ADAMIC</span>
+            <span class="text-gray-400 text-[10px]">@adamic.lasuitedurex</span>
+          </div>
+        </div>
       </section>
 
     </div>
 
+    <!-- Banner Studio Nouméa -->
     <div class="mt-12 p-6 bg-white border border-gray-200 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
       <div class="flex items-center gap-4">
         <img src="Assets/images/DCNC.svg" alt="Drapeau Commun NC" class="h-10 w-auto object-contain" />
@@ -108,14 +198,17 @@
       </div>
       <span class="text-[11px] font-semibold text-gray-400">Mise à jour : 2026</span>
     </div>
+
   </main>
 
+  <!-- Pied de page -->
   <footer class="bg-white border-t border-gray-200 py-8 px-6">
     <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between text-xs text-gray-500 gap-4">
       <p>© 2026 Furnality — Tous droits réservés.</p>
       <p class="font-semibold text-black">Furnality Legacy</p>
     </div>
   </footer>
+
   <script src="index.js"></script>
 </body>
 </html>
