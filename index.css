@@ -20,15 +20,17 @@
   font-style: normal;
 }
 
-/* Application globale */
+/* Application globale & suppression stricte des arrondis */
 * {
   font-family: 'CaledonianFont', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  border-radius: 0 !important;
 }
 
 body {
   background-color: #f9fafb;
 }
 
+/* Cartes sans arrondi avec animation au survol */
 .legacy-card {
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
