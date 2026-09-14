@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accès aux Contenus Restreints — Furnality</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link rel="icon" type="image/svg+xml" href="Assets/images/DCNC.svg">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased min-h-screen flex flex-col justify-between">
+
+  <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3 select-none">
+        <img src="Assets/images/Furnality Logo.svg" alt="Furnality" class="h-8 w-auto object-contain" />
+        <span class="text-xs text-gray-300">|</span>
+        <span class="text-xs font-bold tracking-widest text-gray-400 uppercase">Registre / Accès Restreint</span>
+      </div>
+      <a href="index.html" class="text-xs font-bold text-black hover:underline flex items-center gap-2">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Retour au registre</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-12 flex-grow w-full">
+    <div class="border-b border-gray-200 pb-8 mb-10">
+      <div class="flex items-center gap-3 mb-3">
+        <span class="px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider bg-black text-white">Protocole de Sécurité</span>
+        <span class="text-xs text-gray-400">Réf : ACC-2026-01</span>
+      </div>
+      <h1 class="text-3xl md:text-5xl font-extrabold text-black tracking-tight mb-3">
+        Accès aux Contenus Restreints.
+      </h1>
+      <p class="text-gray-600 text-sm leading-relaxed max-w-2xl">
+        Procédure d'habilitation, contrôle de majorité et règles d'accès aux canaux réservés (Espaces NSFW et salons à accès spécifique).
+      </p>
+    </div>
+
+    <div class="space-y-8 text-sm leading-relaxed text-gray-700">
+      <section class="bg-white p-6 border border-gray-200">
+        <h2 class="text-lg font-bold text-black mb-4 uppercase tracking-wide border-b border-gray-100 pb-2">
+          1. Principe Général & Protection des Mineurs
+        </h2>
+        <p class="mb-3">
+          Les espaces restreints ou à signalétique spécifique (notamment sur le serveur Discord officiel) sont strictement réservés aux utilisateurs majeurs. Aucune dérogation n'est accordée.
+        </p>
+      </section>
+
+      <section class="bg-white p-6 border border-gray-200">
+        <h2 class="text-lg font-bold text-black mb-4 uppercase tracking-wide border-b border-gray-100 pb-2">
+          2. Procédure de Vérification Directe
+        </h2>
+        <p class="mb-3">
+          Pour obtenir le rôle et le niveau d'accès correspondant, l'utilisateur doit obligatoirement passer par un protocole de vérification d'âge en direct :
+        </p>
+        <ul class="list-disc list-inside space-y-1 text-xs text-gray-600 bg-gray-50 p-4 border border-gray-200 font-mono mb-3">
+          <li>Prise de rendez-vous avec l'équipe de modération.</li>
+          <li>Présentation visuelle en visioconférence d'une pièce d'identité officielle.</li>
+          <li>Contrôle visuel direct de correspondance de l'identité.</li>
+        </ul>
+        <p class="text-xs text-gray-500 border-l-2 border-black pl-3 py-1">
+          Rappel : Aucun enregistrement, capture d'écran ou sauvegarde du document d'identité n'est effectué lors de cette procédure. Seul le statut "Majeur" est validé dans les registres du serveur.
+        </p>
+      </section>
+    </div>
+
+    <div class="mt-12 p-6 bg-white border border-gray-200 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      <div class="flex items-center gap-4">
+        <img src="Assets/images/DCNC.svg" alt="Drapeau Commun NC" class="h-10 w-auto object-contain" />
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-black">Studio Nouméa, Nouvelle-Calédonie</p>
+          <p class="text-xs text-gray-500">Réseau multimédia francophone et indépendant.</p>
+        </div>
+      </div>
+      <span class="text-[11px] font-semibold text-gray-400">Mise à jour : 2026</span>
+    </div>
+  </main>
+
+  <footer class="bg-white border-t border-gray-200 py-8 px-6">
+    <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between text-xs text-gray-500 gap-4">
+      <p>© 2026 Furnality — Tous droits réservés.</p>
+      <p class="font-semibold text-black">Furnality Legacy</p>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
