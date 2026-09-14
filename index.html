@@ -14,13 +14,19 @@
   <!-- En-tête -->
   <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
     <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-      <a href="https://furnalitynetwork.github.io/Zapping/" class="flex items-center gap-2 text-sm font-semibold text-gray-600 hover:text-black transition">
-        <i data-lucide="arrow-left" class="w-4 h-4"></i>
-        <span>Retour au réseau Zapping</span>
+      
+      <!-- Brand Logo Furnality -->
+      <a href="index.html" class="flex items-center gap-3 group">
+        <img src="Assets/images/Furnality-Logo.svg" alt="Furnality Network" class="h-8 w-auto object-contain transition-transform group-hover:scale-105" />
+        <span class="text-xs text-gray-300">|</span>
+        <span class="text-xs font-bold tracking-widest text-gray-400 uppercase">Legacy & Registre</span>
       </a>
-      <div class="flex items-center gap-3">
-        <span class="text-xs font-bold tracking-widest text-gray-400 uppercase">Furnality Legacy</span>
+
+      <!-- Ancrage Réseau -->
+      <div class="flex items-center gap-2">
+        <img src="Assets/images/DCNC.svg" alt="NC" class="h-5 w-auto object-contain" />
       </div>
+
     </div>
   </header>
 
@@ -45,7 +51,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="legal-docs-grid">
 
       <!-- Carte 1 : Mentions Légales -->
-      <a href="mentions-lagales.html" class="group bg-white p-6 rounded-xl border border-gray-200 hover:border-black transition-all shadow-sm flex flex-col justify-between">
+      <a href="mentions-lagales.html" class="legacy-card group bg-white p-6 rounded-xl border border-gray-200 hover:border-black transition-all shadow-sm flex flex-col justify-between">
         <div>
           <div class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center text-black mb-4 group-hover:bg-black group-hover:text-white transition">
             <i data-lucide="file-text" class="w-5 h-5"></i>
@@ -62,7 +68,7 @@
       </a>
 
       <!-- Carte 2 : CGU & Conditions -->
-      <a href="cgu-conditions.html" class="group bg-white p-6 rounded-xl border border-gray-200 hover:border-black transition-all shadow-sm flex flex-col justify-between">
+      <a href="cgu-conditions.html" class="legacy-card group bg-white p-6 rounded-xl border border-gray-200 hover:border-black transition-all shadow-sm flex flex-col justify-between">
         <div>
           <div class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center text-black mb-4 group-hover:bg-black group-hover:text-white transition">
             <i data-lucide="shield-check" class="w-5 h-5"></i>
@@ -79,7 +85,7 @@
       </a>
 
       <!-- Carte 3 : Confidentialité & Données -->
-      <a href="confidentialite-donnees.html" class="group bg-white p-6 rounded-xl border border-gray-200 hover:border-black transition-all shadow-sm flex flex-col justify-between">
+      <a href="confidentialite-donnees.html" class="legacy-card group bg-white p-6 rounded-xl border border-gray-200 hover:border-black transition-all shadow-sm flex flex-col justify-between">
         <div>
           <div class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center text-black mb-4 group-hover:bg-black group-hover:text-white transition">
             <i data-lucide="lock" class="w-5 h-5"></i>
@@ -96,7 +102,7 @@
       </a>
 
       <!-- Carte 4 : Traceurs & Cookies -->
-      <a href="traceurs.html" class="group bg-white p-6 rounded-xl border border-gray-200 hover:border-black transition-all shadow-sm flex flex-col justify-between">
+      <a href="traceurs.html" class="legacy-card group bg-white p-6 rounded-xl border border-gray-200 hover:border-black transition-all shadow-sm flex flex-col justify-between">
         <div>
           <div class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center text-black mb-4 group-hover:bg-black group-hover:text-white transition">
             <i data-lucide="cookie" class="w-5 h-5"></i>
@@ -114,7 +120,7 @@
 
     </div>
 
-    <!-- Bannières Ancrage Studio Nouméa -->
+    <!-- Banner Studio Nouméa -->
     <div class="mt-12 p-6 bg-white border border-gray-200 rounded-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
       <div class="flex items-center gap-4">
         <img src="Assets/images/DCNC.svg" alt="Drapeau Commun NC" class="h-10 w-auto object-contain" />
@@ -131,7 +137,10 @@
   <!-- Pied de page -->
   <footer class="bg-white border-t border-gray-200 py-8 px-6">
     <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between text-xs text-gray-500 gap-4">
-      <p>© 2026 Furnality Network — Tous droits réservés.</p>
+      <div class="flex items-center gap-2">
+        <img src="Assets/images/Furnality-Logo.svg" alt="Furnality" class="h-4 w-auto grayscale opacity-60" />
+        <p>© 2026 Furnality Network — Tous droits réservés.</p>
+      </div>
       <p class="font-semibold text-black">Furnality Legacy</p>
     </div>
   </footer>
