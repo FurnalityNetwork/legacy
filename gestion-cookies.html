@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestion des Traceurs & Cookies — Furnality</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link rel="icon" type="image/svg+xml" href="Assets/images/DCNC.svg">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased min-h-screen flex flex-col justify-between">
+
+  <!-- En-tête Sticky -->
+  <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      
+      <!-- Logo & Fil d'Ariane -->
+      <div class="flex items-center gap-3 select-none">
+        <img src="Assets/images/Furnality Logo.svg" alt="Furnality" class="h-8 w-auto object-contain" />
+        <span class="text-xs text-gray-300">|</span>
+        <span class="text-xs font-bold tracking-widest text-gray-400 uppercase">Registre / Traceurs & Cookies</span>
+      </div>
+
+      <!-- Bouton de retour -->
+      <a href="index.html" class="text-xs font-bold text-black hover:underline flex items-center gap-2">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Retour au registre</span>
+      </a>
+
+    </div>
+  </header>
+
+  <!-- Contenu Principal -->
+  <main class="max-w-4xl mx-auto px-6 py-12 flex-grow w-full">
+    
+    <!-- Hero / Entête du document -->
+    <div class="border-b border-gray-200 pb-8 mb-10">
+      <div class="flex items-center gap-3 mb-3">
+        <span class="px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider bg-black text-white">Document Officiel</span>
+        <span class="text-xs text-gray-400">Réf : COOK-2026-01</span>
+      </div>
+      <h1 class="text-3xl md:text-5xl font-extrabold text-black tracking-tight mb-3">
+        Gestion des Traceurs & Cookies.
+      </h1>
+      <p class="text-gray-600 text-sm leading-relaxed max-w-2xl">
+        Information relative au dépôt de cookies, à l'absence d'outils de ciblage publicitaire et au fonctionnement des lecteurs multimédias tiers.
+      </p>
+    </div>
+
+    <!-- Sections -->
+    <div class="space-y-8 text-sm leading-relaxed text-gray-700">
+
+      <!-- Section 1 : Politique Globale sur les Cookies -->
+      <section class="bg-white p-6 border border-gray-200">
+        <h2 class="text-lg font-bold text-black mb-4 uppercase tracking-wide border-b border-gray-100 pb-2">
+          1. Politique Globale & Absence de Traçage Commercial
+        </h2>
+        <p class="mb-3">
+          Le portail <strong>Furnality</strong> n'utilise aucun cookie publicitaire, aucun profilage comportemental ni aucun script de traçage commercial propre.
+        </p>
+        <p>
+          Aucun bandeau de consentement n'est requis pour la navigation de base, car nous ne collectons aucune donnée marketing à votre insu.
+        </p>
+      </section>
+
+      <!-- Section 2 : Cookies Techniques & Fonctionnels -->
+      <section class="bg-white p-6 border border-gray-200">
+        <h2 class="text-lg font-bold text-black mb-4 uppercase tracking-wide border-b border-gray-100 pb-2">
+          2. Cookies Techniques & Hébergement
+        </h2>
+        <p class="mb-3">
+          Lors de votre navigation sur nos registres, des données techniques temporaires peuvent être gérées par l'infrastructure d'hébergement (GitHub Pages) pour assurer la sécurité, la livraison du contenu et la prévention des attaques.
+        </p>
+        <p>
+          Ces éléments sont strictement nécessaires au bon fonctionnement du site et ne permettent pas de vous identifier personnellement.
+        </p>
+      </section>
+
+      <!-- Section 3 : Modules & Lecteurs Multimédias Tiers -->
+      <section class="bg-white p-6 border border-gray-200">
+        <h2 class="text-lg font-bold text-black mb-4 uppercase tracking-wide border-b border-gray-100 pb-2">
+          3. Lecteurs Extérieurs (YouTube, Twitch, Discord)
+        </h2>
+        <p class="mb-3">
+          Certaines pages du réseau intègrent des lecteurs vidéo ou des widgets provenant de plateformes tierces (notamment YouTube, Twitch ou Discord) pour diffuser nos flux en direct et nos émissions.
+        </p>
+        <p class="mb-3">
+          Lorsque vous interagissez avec ces éléments intégrés, ces services peuvent déposer leurs propres cookies et collecter des données selon leurs conditions respectives :
+        </p>
+        <ul class="list-disc list-inside space-y-1 text-xs text-gray-600 bg-gray-50 p-4 border border-gray-200 font-mono">
+          <li><strong>Google / YouTube :</strong> Gestion du lecteur et statistiques de visionnage.</li>
+          <li><strong>Twitch Interactive :</strong> Authentification du lecteur et flux en direct.</li>
+          <li><strong>Discord :</strong> Intégration des canaux et états de présence.</li>
+        </ul>
+      </section>
+
+      <!-- Section 4 : Paramétrage du Navigateur -->
+      <section class="bg-white p-6 border border-gray-200">
+        <h2 class="text-lg font-bold text-black mb-4 uppercase tracking-wide border-b border-gray-100 pb-2">
+          4. Contrôle via votre Navigateur
+        </h2>
+        <p class="mb-3">
+          Vous pouvez à tout moment configurer votre navigateur web pour bloquer ou supprimer les cookies tiers déposés par les plateformes de vidéo. 
+        </p>
+        <p>
+          Notez toutefois que le blocage complet de ces éléments peut altérer la lecture directe des flux vidéo intégrés sur le site.
+        </p>
+      </section>
+
+    </div>
+
+    <!-- Banner Studio Nouméa -->
+    <div class="mt-12 p-6 bg-white border border-gray-200 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      <div class="flex items-center gap-4">
+        <img src="Assets/images/DCNC.svg" alt="Drapeau Commun NC" class="h-10 w-auto object-contain" />
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-black">Studio Nouméa, Nouvelle-Calédonie</p>
+          <p class="text-xs text-gray-500">Réseau multimédia francophone et indépendant.</p>
+        </div>
+      </div>
+      <span class="text-[11px] font-semibold text-gray-400">Mise à jour : 2026</span>
+    </div>
+
+  </main>
+
+  <!-- Pied de page -->
+  <footer class="bg-white border-t border-gray-200 py-8 px-6">
+    <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between text-xs text-gray-500 gap-4">
+      <p>© 2026 Furnality — Tous droits réservés.</p>
+      <p class="font-semibold text-black">Furnality Legacy</p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
